@@ -1,0 +1,28 @@
+{
+    "lib": {
+        "name": "gd_app_plugin",
+        "type": "godot",
+        "date_created": "mar-2-2026-3:5am-(29s)-cst",
+        "source": "",
+        "origin": "",
+        "dependencies": [
+            "g_libs",
+            "gd_app"
+        ],
+        "owner": "Gammasynth",
+        "website": "",
+        "copyright": "",
+        "license": "MIT",
+        "is_sublibrary": false,
+        "useable_zipped": false,
+        "executable_path": "",
+        "add_to_user_environment_path": "",
+        "add_to_global_environment_path": "",
+        "post_install_executable_path": "",
+        "version": "0.3.3",
+        "latest_update": "mar-2-2026-4:39pm-(52s)-cst",
+        "copyright_filepath": "",
+        "license_filepath": "",
+        "build": "alpha"
+    }
+}

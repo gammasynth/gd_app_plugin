@@ -1,0 +1,48 @@
+#|*******************************************************************
+# version_0.0.3_changelog.txt
+#*******************************************************************
+# This file is part of gd_app_plugin.
+# 
+# gd_app_plugin is an open-source software plugin for the Godot Engine.
+# gd_app_plugin is licensed under the MIT license.
+# 
+# https://github.com/gammasynth/gd_app_plugin
+#*******************************************************************
+# Copyright (c) 2026 AD - present; 1447 AH - present, Gammasynth.  
+# Gammasynth (Gammasynth Software), Texas, U.S.A.
+# 
+# This software is licensed under the MIT license.
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# 
+#|*******************************************************************
+
+---
+
+version 0.0.3 alpha
+mar-2-2026-3:25pm-(40s)-cst
+
+- implemented AppToolUIResouce @tool class extending from Resource
+res://addons/gd_app_plugin/class/app_tool_ui_resource.gd
+
+- added dock_control Control, project_node_loading bool, project_node_scene Node members to AppToolUIResource class
+- added Setup @export_category to AppToolUIResouce class
+- added Project Node Scene @export_group to Setup in AppToolUIResouce class
+
+- added project_node_scene_path @export_file in AppToolUIResouce class
+- added project_node_loaded @export bool member in AppToolUIResouce class
+- added load_project_node_scene_action @export_tool_button Callable member in AppToolUIResouce class
+
+- added Manage @export_category to AppToolUIResouce class
+- added Manage Project @export_group to Manage in AppToolUIResouce class
+
+- added app_resource @export AppResource member in AppToolUIResouce class
+- added startup_project_action @export_tool_button Callable member in AppToolUIResouce class
+- added update_project_action @export_tool_button Callable member in AppToolUIResouce class
+
+- implemented load_project_node_scene void, project_node_was_loaded void, apply_node_refs void, validate_node_ref bool, startup_project void, and update_project void methods into AppToolUIResouce class
+

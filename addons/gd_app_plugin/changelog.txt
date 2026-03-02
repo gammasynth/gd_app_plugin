@@ -1,0 +1,148 @@
+#|*******************************************************************
+# changelog.txt
+#*******************************************************************
+# This file is part of gd_app_plugin.
+# 
+# gd_app_plugin is an open-source software plugin for the Godot Engine.
+# gd_app_plugin is licensed under the MIT license.
+# 
+# https://github.com/gammasynth/gd_app_plugin
+#*******************************************************************
+# Copyright (c) 2026 AD - present; 1447 AH - present, Gammasynth.  
+# Gammasynth (Gammasynth Software), Texas, U.S.A.
+# 
+# This software is licensed under the MIT license.
+# 
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+# 
+# The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+# 
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+# 
+#|*******************************************************************
+gd_app_plugin | version changelog
+___
+---
+
+version 0.3.3 alpha
+mar-2-2026-4:39pm-(52s)-cst
+
+updated owner and license info in lib.json
+
+( UNSTABLE, DO NOT USE )
+---
+
+version 0.3.2 alpha
+mar-2-2026-4:33pm-(24s)-cst
+
+batch file licensing (MIT)
+
+(UNSTABLE DO NOT USE)
+---
+
+version 0.3.1 alpha
+mar-2-2026-4:31pm-(35s)-cst
+
+tested AppToolUI dock & broke versioning on the AppResource tested upon 
+
+(UNSTABLE DO NOT USE)
+---
+
+version 0.3.0 alpha
+mar-2-2026-4:3pm-(15s)-cst
+
+GDApp Plugin
+Update 0.3 Minor
+
+AppToolUI Dock
+---
+
+version 0.2.4 alpha
+mar-2-2026-4:2pm-(25s)-cst
+
+gd_app_plugin is now using AppResource.CodeTypes.plugin
+---
+
+version 0.2.3 alpha
+mar-2-2026-3:32pm-(57s)-cst
+
+- implemented AppToolUI dock into gd_app_plugin script
+---
+
+version 0.2.2 alpha
+mar-2-2026-3:31pm-(8s)-cst
+
+- implemented basic AppToolUI class for app_tool_ui scene using AppToolUIResouce and EditorInspector in _ready function
+
+---
+
+version 0.2.1 alpha
+mar-2-2026-3:28pm-(19s)-cst
+
+GDApp Plugin
+Minor Update 2
+
+AppToolUIResouce class
+---
+
+version 0.1.1 alpha
+mar-2-2026-3:27pm-(51s)-cst
+
+GDApp_Plugin (gd_app_plugin)
+Minor Update 1
+
+Github Repo
+Plugin Data Structure
+G_Libs (g_libs) Integration
+Version Control
+---
+
+version 0.0.3 alpha
+mar-2-2026-3:25pm-(40s)-cst
+
+- implemented AppToolUIResouce @tool class extending from Resource
+res://addons/gd_app_plugin/class/app_tool_ui_resource.gd
+
+- added dock_control Control, project_node_loading bool, project_node_scene Node members to AppToolUIResource class
+- added Setup @export_category to AppToolUIResouce class
+- added Project Node Scene @export_group to Setup in AppToolUIResouce class
+
+- added project_node_scene_path @export_file in AppToolUIResouce class
+- added project_node_loaded @export bool member in AppToolUIResouce class
+- added load_project_node_scene_action @export_tool_button Callable member in AppToolUIResouce class
+
+- added Manage @export_category to AppToolUIResouce class
+- added Manage Project @export_group to Manage in AppToolUIResouce class
+
+- added app_resource @export AppResource member in AppToolUIResouce class
+- added startup_project_action @export_tool_button Callable member in AppToolUIResouce class
+- added update_project_action @export_tool_button Callable member in AppToolUIResouce class
+
+- implemented load_project_node_scene void, project_node_was_loaded void, apply_node_refs void, validate_node_ref bool, startup_project void, and update_project void methods into AppToolUIResouce class
+
+---
+
+version 0.0.2 alpha
+mar-2-2026-3:16am-(17s)-cst
+
+- saved plugin_gd_app_plugin AppResource from plugin_gd_app_plugin scene to file @
+res://addons/gd_app_plugin/resource/plugin_gd_app_plugin.tres
+---
+
+version 0.0.1 alpha
+mar-2-2026-3:9am-(31s)-cst
+
+- created GitHub repository for gd_app_plugin @ https://github.com/gammasynth/gd_app_plugin
+
+- added scene/dev/plugin_gd_app_plugin scene
+- configured tool nodes in ToolNode instance for plugin_gd_app_plugin scene
+
+- added plugin.cfg
+- added gd_app_plugin.gd script
+
+- added scene/tool_ui/app_tool_ui scene
+
+- established lib.json
+- added changelogs
+- added MIT license
+ 

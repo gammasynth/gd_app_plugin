@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d3pwe5yocme12"]
+
+[ext_resource type="Script" uid="uid://b4omynrw5pqb3" path="res://addons/gd_app_plugin/scene/tool_ui/app_tool_ui.gd" id="1_aqhud"]
+
+[node name="AppToolUI" type="Control" unique_id=355640678]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aqhud")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="." unique_id=1213830563]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

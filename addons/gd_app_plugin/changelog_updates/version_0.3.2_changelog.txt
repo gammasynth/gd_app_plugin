@@ -1,0 +1,8 @@
+---
+
+version 0.3.2 alpha
+mar-2-2026-4:33pm-(24s)-cst
+
+batch file licensing (MIT)
+
+(UNSTABLE DO NOT USE)

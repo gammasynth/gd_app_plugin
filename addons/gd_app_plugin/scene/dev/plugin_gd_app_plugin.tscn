@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://m3142drvcos7"]
+
+[ext_resource type="PackedScene" uid="uid://bi888t1r21bnb" path="res://lib/g_libs/g_tools/scene/tool_node.tscn" id="1_el1im"]
+[ext_resource type="Resource" uid="uid://yrx8mydxfyxd" path="res://addons/gd_app_plugin/resource/plugin_gd_app_plugin.tres" id="2_el1im"]
+
+[node name="plugin_gd_app_plugin" type="Node" unique_id=459291905]
+
+[node name="ToolNode" parent="." unique_id=675606084 instance=ExtResource("1_el1im")]
+
+[node name="FileTool" parent="ToolNode" index="0" unique_id=682686430]
+search_path = "res://addons/gd_app_plugin/"
+filename_begins_with = ""
+control_script_path = ""
+control_license_path = "res://addons/gd_app_plugin/LICENSE.md"
+licensed_file_header = "This file is part of gd_app_plugin.
+
+gd_app_plugin is an open-source software plugin for the Godot Engine.
+gd_app_plugin is licensed under the MIT license.
+
+https://github.com/gammasynth/gd_app_plugin"
+header_licensed_files = true
+name_licensed_files = true
+license_files = true
+
+[node name="TimeTool" parent="ToolNode" index="3" unique_id=1619197453]
+date_time_stamp = "mar-2-2026-4:39pm-(53s)-cst"
+
+[node name="JsonTool" parent="ToolNode" index="4" unique_id=1412259197 node_paths=PackedStringArray("time_tool_node")]
+new_file_path_directory = "res://addons/gd_app_plugin/"
+new_file_path = "res://addons/gd_app_plugin/lib.json"
+time_tool_node = NodePath("../TimeTool")
+example_lib_json_file = "C:/Files/github/gamma_work/BrewBolt/brewbolt_godot/lib/g_libs/g_tools/example_lib.json"
+lib_name = "gd_app_plugin"
+date_lib_created = "mar-2-2026-4:39pm-(53s)-cst"
+lib_last_update = "mar-2-2026-3:0am-(56s)-cst"
+lib_dependencies = Array[String](["g_libs", "gd_app"])
+example_version_json_file = "C:/Files/github/gamma_work/BrewBolt/brewbolt_godot/lib/g_libs/g_tools/example_version.json"
+date_app_created = "mar-2-2026-4:39pm-(53s)-cst"
+app_last_update = "mar-2-2026-3:0am-(56s)-cst"
+
+[node name="AppTool" parent="ToolNode" index="5" unique_id=577520189 node_paths=PackedStringArray("json_tool_node")]
+json_tool_node = NodePath("../JsonTool")
+app_resource = ExtResource("2_el1im")
+
+[editable path="ToolNode"]

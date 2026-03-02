@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="AppResource" format=3 uid="uid://yrx8mydxfyxd"]
+
+[ext_resource type="Script" uid="uid://clvu1th6yt1qg" path="res://lib/g_libs/g_tools/class/resource/app_resource.gd" id="1_11qc8"]
+
+[resource]
+script = ExtResource("1_11qc8")
+local_project_root = "res://addons/gd_app_plugin"
+project_root = ""
+godot_project_root = ""
+project_name = "gd_app_plugin"
+current_version = "0.3.3"
+new_version = "0.3.3"
+dependencies = Array[String](["g_libs", "gd_app"])
+project_type = 3
+started_project = true
+local_json_info = "res://addons/gd_app_plugin/lib.json"
+json_info = ""
+local_updates_info_file_path = "res://addons/gd_app_plugin/changelog_updates/"
+local_changelog = "res://addons/gd_app_plugin/changelog.txt"
+versions_manifest = "C:/Files/github/gamma_work/software/versions_manifest.json"
